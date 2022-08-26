@@ -15,7 +15,7 @@
 
 
 @media (min-width: 768px) {
-    .image-pop{
+    .image-pop {
         margin: 20px 10px;
     }
 }
@@ -100,9 +100,35 @@
         height: 3rem;
         margin: 10px 1rem 1rem 0;
     }
-    .image-pop{
+
+    .image-pop {
         margin: 20px 50px;
     }
+
+    /* .newsletter{
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+
+    } */
+    .newsletter-form {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+
+    .news-letter-btn {
+        width: 20%;
+    }
+
+    .newsletter-form input {
+        width: 80%;
+    }
+
+    ;
 }
 
 @media (min-width: 1200px) {
