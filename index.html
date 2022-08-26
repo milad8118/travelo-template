@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+    <link rel="stylesheet" href="./styles/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="app">
+        <header class="  d-flex">
+            <section class="w-100 d-flex top-header">
+                <section class=" logo-header">
+                    <a class="logo-header-link " href="#"><img class="transform-scale-1-1 transition"
+                            src="./images/logo.png" alt=""></a>
+                </section>
+                <nav class="header-nav">
+                    <ul class="top-header-menu transition  " id="drop-down">
+                        <li id="drop-down" class="search-li">
+                            <form class=" " action="#">
+
+                                <input class="search-input " type="text" placeholder="example: Iran">
+                                <button class="search-button btn transition"><i class="fa fa-search"></i></button>
+                            </form>
+                        </li>
+                        <li>
+                            <a class="transition-red" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="transition-red" href="#">About</a>
+                        </li>
+                        <li>
+                            <a class="transition-red" href="#">Destination</a>
+                        </li>
+                        <li>
+                            <a class="transition-red" href="#">Pages</a>
+                        </li>
+                        <li>
+                            <a class="transition-red" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="transition-red" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="d-flex header-icons">
+                    <div class="search-box transform-scaleY-1-1">
+                        <a class="transition-black search-box-link top-header-icon" href="#"><i
+                                class="fa fa-search"></i></a>
+                    </div>
+                    <div class="drop-down-menu transform-scaleY-1-1 ">
+                        <a class="transition-black bars-box-link top-header-icon" onclick="ShowNav()" href="#"><i
+                                class="fa fa-bars"></i></a>
+
+                    </div>
+                </div>
+            </section>
+            <section class="main-header  w-100">
+                <div class="d-flex main-header-text">
+                    <h1 class="australia transition transition-red">Australia</h1>
+                    <p class="main-header-p transition-red">
+                        it's the travelo template but made by me
+                    </p>
+                    <button class="btn main-header-btn transition-back-red">EXPLORE</button>
+                </div>
+
+            </section>
+            <section class="search-bar  d-flex">
+                <h3>Where you want to go?</h3>
+                <form action="" class="search-form d-flex">
+                    <input type="text" placeholder="Where to go?">
+                    <input type="text" placeholder="Where to go?">
+                    <input type="text" placeholder="Where to go?">
+                    <button class="btn transition-back-green transition">Submit</button>
+                </form>
+            </section>
+        </header>
+
+        <main>
+            <div class="popular-destination">
+                <div class="row popular-head">
+                    <h5>Popular Destination</h5> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem!
+                    </p>
+                </div>
+
+                <div class="row popular-container">
+                    <article class="image-pop transition">
+                        <a href="#"> <span class="article-box-link"></span></a>
+                        <img src="./images/1.png" alt="">
+                        <div class="information">
+                            <p class="transition-red">Italy <a class="article-link transition-back-red" href="https:google.com">07 Places</a></p>
+                        </div>
+                    </article>
+                     <article class="image-pop transition">
+                        <a href="#"> <span class="article-box-link"></span></a>
+                        <img src="./images/2.png" alt="">
+                        <div class="information">
+                            <p>Brazil <a class="article-link transition-back-red" href="#">07 Places</a></p>
+                        </div>
+                    </article>
+                     <article class="image-pop transition">
+                        <a href="#"> <span class="article-box-link"></span></a>
+                        <img src="./images/3.png" alt="">
+                        <div class="information">
+                            <p>Amercia <a class="article-link transition-back-red" href="#">07 Places</a></p>
+                        </div>
+                    </article>
+                     <article class="image-pop transition">
+                        <a href="#"> <span class="article-box-link"></span></a>
+                        <img src="./images/4.png" alt="">
+                        <div class="information">
+                            <p>Maldives <a class="article-link transition-back-red" href="#">07 Places</a></p>
+                        </div>
+                    </article>
+                     <article class="image-pop transition">
+                        <a href="#"> <span class="article-box-link"></span></a>
+                        <img src="./images/5.png" alt="">
+                        <div class="information">
+                            <p>Iran <a class="article-link transition-back-red" href="#">07 Places</a></p>
+                        </div>
+                    </article>
+                     <article class="image-pop transition">
+                        <a href="#"> <span class="article-box-link"></span></a>
+                        <img src="./images/6.png" alt="">
+                        <div class="information">
+                            <p>Italy <a class="article-link transition-back-red" href="#">07 Places</a></p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+            </div>
+        </main>
+        <aside>
+
+        </aside>
+
+
+    </section>
+    <footer></footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

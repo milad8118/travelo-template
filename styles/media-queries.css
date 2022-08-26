@@ -1,0 +1,123 @@
+@media (min-width: 576px) {
+    .search-box-link {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .bars-box-link {
+        padding: 30px 35px;
+    }
+
+    .australia {
+        font-size: 12vw;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .image-pop{
+        margin: 20px 10px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .top-header-menu {
+        display: block;
+        visibility: visible;
+        opacity: 1;
+
+    }
+
+    .australia {
+        font-size: 7vw;
+    }
+
+    .drop-down-menu {
+        display: none;
+    }
+
+    .search-box-link {
+        margin-right: 5vw;
+    }
+
+    .top-header-menu {
+        position: relative;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        display: flex !important;
+    }
+
+    .top-header-menu li {
+        padding: 0 25px;
+        border-style: none;
+        display: inline-block;
+
+    }
+
+    .top-header-menu li:hover {
+        background-color: white !important;
+    }
+
+    .search-li {
+        display: none !important;
+    }
+
+    .transition-red:hover {
+        color: #ff4a52 !important;
+    }
+
+    .main-header-p {
+        font-size: 3vw !important;
+    }
+
+    .search-bar {
+        flex-direction: row;
+        width: 100%;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .search-form {
+        flex-direction: row;
+        width: 73%;
+        align-items: baseline;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .search-bar h3 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        width: 22%;
+    }
+
+    .search-form input {
+        width: 100%;
+        padding: 0 10px;
+        height: 3rem;
+        margin: 10px 1rem 1rem 0;
+    }
+    .image-pop{
+        margin: 20px 50px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search-box-link {
+        padding: 30px 35px;
+    }
+
+    .top-header-menu {
+        font-size: 1.3vw;
+    }
+
+    .search-bar h3 {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        width: 15%;
+    }
+
+}
