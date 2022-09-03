@@ -145,5 +145,12 @@
         font-size: 1.2rem;
         width: 15%;
     }
-
+    .image-pop{
+        margin: 20px 100px;
+        width: 400px;
+        height: 350px;
+    }
+.video-container h3{
+    font-size: 7rem;
+}
 }

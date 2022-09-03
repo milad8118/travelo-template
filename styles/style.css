@@ -8,7 +8,7 @@
 {
 	margin:0;
 	padding:0;
-	box-sizing:border-box
+	box-sizing:border-box;
 }
 
 ::selection
@@ -16,9 +16,11 @@
 	background-color:#f1c40f
 }
 
-html,body,.app
+html,body
 {
-	height:100%
+	box-sizing: border-box;
+	height:100%;
+	width: 100%;
 }
 
 body
@@ -132,7 +134,7 @@ li
 
 .d-flex
 {
-	display:flex!important
+	display:flex!important;
 }
 
 .d-none
@@ -144,12 +146,12 @@ li
 {
 	display:flex;
 	align-items:center;
-	justify-content:center
+	justify-content:center;
 }
 
 .d-inline
 {
-	display:inline
+	display:inline;
 }
 
 .w-100
@@ -394,10 +396,10 @@ header
 	padding:10px 15px!important
 }
 
-main
+/* main
 {
-	padding:370px 0
-}
+	padding: 0px 0;
+} */
 
 .popular-destination
 {
@@ -435,13 +437,14 @@ main
 	flex-wrap:wrap;
 	justify-content:center;
 	width:100%;
-	padding:0 10px
+	/* padding:0 10px; */
+	align-items: center;
 }
 
 .image-pop
 {
 	position:relative;
-	margin:20px 50px
+	margin:20px 0 20px 10px;
 }
 
 .image-pop:hover
@@ -612,7 +615,7 @@ main
 }
 .video-container h3{
 	font-family: "nothing-you-could-do";
-	font-size: 7rem;
+	font-size: 10vw;
 	font-weight: 400;
 	color: white;
 	margin-bottom: 20px;
@@ -627,4 +630,11 @@ main
 	height: 85px;
 	border-radius: 50%;
 
+}
+
+/* footer */
+footer{
+	padding: 50px 500px;
+	justify-content: space-between;
+	background-color: #0b4640;
 }
