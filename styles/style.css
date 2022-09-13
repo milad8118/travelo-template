@@ -11,7 +11,14 @@
 	box-sizing:border-box;
 
 }
+.app{
+	max-width: 1900px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 
+
+}
 ::selection
 {
 	background-color:#f1c40f
@@ -190,6 +197,11 @@ header
 {
 	flex-direction:column;
 	height:100vh
+}
+@media only screen and (min-width:992px) and (max-width:1200px) {
+	header{
+		height: 60vh;
+	}
 }
 
 .top-header
@@ -411,6 +423,53 @@ header
 	margin:100px 0;
 	height:100px
 }
+@media only screen and (min-width:1200px){
+	.popular-head{
+	    margin-top: -100px;
+	}
+}
+@media only screen and (min-width:1400px){
+	.popular-head{
+	    margin-top: 10px;
+	}
+}
+@media only screen and (min-width:1600px){
+	.popular-head{
+	    margin-top: 100px;
+	}
+}
+
+@media only screen and (max-width:1200px) {
+	.popular-head{
+		padding-top: 10vh;
+		padding-bottom: 5vh;
+	}
+}
+
+@media only screen and (max-width:1100px) {
+	.popular-head{
+		padding-top: 2vh;
+		padding-bottom: 5vh;
+	}
+}
+@media only screen and (max-width:992px){
+	.popular-head{
+		padding-top: 20vh;
+		padding-bottom: 5vh;
+	}
+}
+@media only screen and (max-width:768px){
+	.popular-head{
+		margin-top: 10vh;
+	}
+}
+@media only screen and (max-width:556px){
+	.popular-head{
+		margin-top: 0vh;
+	}
+}
+
+
 
 .popular-head h5
 {
