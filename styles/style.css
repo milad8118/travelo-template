@@ -13,9 +13,7 @@
 }
 .app{
 	max-width: 1900px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+	margin: auto;
 
 
 }
